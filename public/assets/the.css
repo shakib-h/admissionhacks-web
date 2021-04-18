@@ -1,0 +1,28 @@
+@import url('https://fonts.maateen.me/charukola-ultra-light/font.css');
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    display: table;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'CharukolaUltraLight', sans-serif;
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: normal;
+    text-transform: lowercase;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
