@@ -6,6 +6,21 @@
             "**/.*",
             "**/node_modules/**"
         ],
-        "cleanUrls": true
+        "cleanUrls": true,
+        "headers": [{
+                "source": "/**",
+                "headers": [{
+                    "key": "Cache-Control",
+                    "value": "no-cache, no-store, must-revalidate"
+                }]
+            },
+            {
+                "source": "**/assets/**",
+                "headers": [{
+                    "key": "Cache-Control",
+                    "value": "max-age=604800"
+                }]
+            }
+        ]
     }
 }
